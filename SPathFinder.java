@@ -1,10 +1,10 @@
 import java.util.*;
 
-class DelhiMetro {
+class SPathFinder {
 	private int V;
 	private List<List<iPair>> adj;
 
-	DelhiMetro(int V) {
+	SPathFinder(int V) {
 		this.V = V;
 		adj = new ArrayList<>();
 		for (int i = 0; i <= V; i++) {
@@ -56,7 +56,7 @@ class DelhiMetro {
 	//Main
 	public static void main(String[] args) {
 		int V = 21;
-		DelhiMetro g = new DelhiMetro(V);
+		SPathFinder g = new SPathFinder(V);
 
 		g.addEdge(7, 15, 8);
 		g.addEdge(15, 3, 10);
