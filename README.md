@@ -31,9 +31,10 @@ The Metro Shortest Path Finder is a Java-based application that utilizes Dijkstr
    ```bash
    javac SPathFinder.java
 
-3. **Install the required packages:**
+3. **Run the Program:** Execute the program with:
    ```bash
-   pip install -r requirements.txt
+   java SPathFinder
+
 4. **Interact with the Application:**
 * Choose an option from the menu:
  1. List of all stations
