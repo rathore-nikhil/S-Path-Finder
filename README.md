@@ -41,3 +41,10 @@ The Metro Shortest Path Finder is a Java-based application that utilizes Dijkstr
  2. Show the metro map
  3. Get the shortest path from source to destination
 * Follow the prompts to enter the source and destination stations for path calculation.
+
+## Code Structure
+**SPathFinder Class:** Contains the main logic for the metro pathfinding application.
+* **addEdge(int u, int v, int w):** Adds an edge between two stations with a specified weight (distance).
+* **shortestPath(int src, int dest):** Implements Dijkstra's algorithm to find the shortest path from the source to the destination station.
+* **iPair Class:** A helper class to store pairs of integers (used for distance and station index).
+
