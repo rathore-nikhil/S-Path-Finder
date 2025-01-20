@@ -1,7 +1,7 @@
 # S-Path-Finder
 
 ## Overview
-The Metro Shortest Path Finder is a Java-based application that utilizes Dijkstra's algorithm to find the shortest path between two metro stations in a simulated metro network. The application allows users to view a list of metro stations, display the metro map, and calculate the shortest distance between any two stations.
+The Metro Shortest Path Finder is a Graph based Java application that utilizes Dijkstra's algorithm to find the shortest path between two metro stations in a simulated metro network. The application allows users to view a list of metro stations, display the metro map, and calculate the shortest distance between any two stations.
 
 
 ## Features
